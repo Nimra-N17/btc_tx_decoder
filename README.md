@@ -1,20 +1,32 @@
-# Bitcoin Fee Estimator
+# Bitcoin Transaction Decoder
 
-A simple Python CLI tool that estimates Bitcoin transaction fees in satoshis based on mempool congestion.  
-This project demonstrates basic Python programming, API usage, and Bitcoin transaction concepts.
+A Python CLI tool that parses raw Bitcoin transaction hex and displays basic transaction fields. This project demonstrates understanding of Bitcoin transaction structure, Python programming, and CLI tools.
 
 ## Features
 
-- Fetches live mempool data from [mempool.space](https://mempool.space) API
-- Estimates recommended fee based on transaction size (bytes)
-- CLI interface with optional argument for transaction size
-- Single-file, beginner-friendly Python project
+- Parses transaction version and input count
+- Displays raw transaction size in bytes
+- Simple CLI interface for easy testing
+- Modular design for future extension
 
 ## Usage
 
-### Interactive mode 
+Run the script with a raw transaction hex:
 
-```bash
-python fee_estimator.py
+python main.py <raw_transaction_hex>
 
+## Installation
 
+1. Make sure Python 3 is installed
+2. (Optional) Create a virtual environment
+3. Run the script using Python as shown above
+
+## Why I Built This
+
+This project helps beginners understand Bitcoin transaction structure at the byte level. It demonstrates reading and parsing raw transaction data, modular Python code, and CLI usage.
+
+## Future Improvements
+
+- Fully parse inputs and outputs
+- Detect common script types (P2PKH, P2SH, P2WPKH, P2WSH)
+- Add unit tests for all parsing functions
