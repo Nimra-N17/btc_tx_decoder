@@ -12,10 +12,9 @@ This project demonstrates basic Python programming, API usage, and Bitcoin trans
 
 ## Usage
 
-### Interactive mode
+### Interactive mode 
 
 ```bash
 python fee_estimator.py
 
-## Command-line argument mode
-python fee_estimator.py 300
+
