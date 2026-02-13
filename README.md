@@ -18,7 +18,7 @@ python main.py <raw_transaction_hex>
 ## Installation
 
 1. Make sure Python 3 is installed
-2. (Optional) Create a virtual environment
+2. Create a virtual environment
 3. Run the script using Python as shown above
 
 ## Why I Built This
